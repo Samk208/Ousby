@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+
+<html class="light" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Espace Presse - Ouzby Fofana</title>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Google Fonts & Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700;800&amp;family=Source+Serif+4:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind Config Injection -->
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary-container": "#705300",
+                    "tertiary-fixed": "#ffdad7",
+                    "on-background": "#181d1b",
+                    "secondary-fixed": "#ffdf9d",
+                    "border-elegant": "#DEE5DF",
+                    "on-primary-container": "#a4ffc7",
+                    "on-surface-variant": "#3e4941",
+                    "inverse-surface": "#2c312f",
+                    "primary": "#005f39",
+                    "surface-white": "#FFFFFF",
+                    "surface-container-highest": "#dfe4e0",
+                    "on-tertiary-fixed": "#410004",
+                    "primary-fixed": "#96f6bc",
+                    "error-container": "#ffdad6",
+                    "surface-container": "#eaefeb",
+                    "secondary": "#785a00",
+                    "background": "#f6faf7",
+                    "on-error-container": "#93000a",
+                    "on-secondary-fixed": "#251a00",
+                    "on-secondary": "#ffffff",
+                    "surface-container-high": "#e5e9e6",
+                    "surface-dim": "#d7dbd8",
+                    "on-tertiary-fixed-variant": "#8f0f19",
+                    "surface-bright": "#f6faf7",
+                    "outline": "#6e7a71",
+                    "on-primary": "#ffffff",
+                    "on-secondary-fixed-variant": "#5b4300",
+                    "surface-container-low": "#f0f5f1",
+                    "on-tertiary": "#ffffff",
+                    "inverse-on-surface": "#edf2ee",
+                    "outline-variant": "#becabf",
+                    "on-primary-fixed": "#002110",
+                    "on-tertiary-container": "#ffe6e4",
+                    "on-surface": "#181d1b",
+                    "deep-forest": "#075C3B",
+                    "tertiary": "#a01e23",
+                    "ivory-bg": "#FAF8F2",
+                    "text-muted": "#626A66",
+                    "inverse-primary": "#7adaa2",
+                    "surface": "#f6faf7",
+                    "primary-container": "#087a4b",
+                    "surface-container-lowest": "#ffffff",
+                    "on-primary-fixed-variant": "#005230",
+                    "primary-fixed-dim": "#7adaa2",
+                    "surface-tint": "#006d42",
+                    "on-error": "#ffffff",
+                    "secondary-container": "#fcc748",
+                    "tertiary-container": "#c23738",
+                    "secondary-fixed-dim": "#f3bf40",
+                    "error": "#ba1a1a",
+                    "tertiary-fixed-dim": "#ffb3ae",
+                    "surface-variant": "#dfe4e0"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "section-gap": "5rem",
+                    "margin-page": "2rem",
+                    "stack-sm": "0.5rem",
+                    "stack-md": "1rem",
+                    "stack-lg": "2rem",
+                    "margin-mobile": "1.25rem",
+                    "gutter": "1.5rem"
+            },
+            "fontFamily": {
+                    "headline-md": [
+                            "\"Source Serif 4\""
+                    ],
+                    "display-lg": [
+                            "\"Source Serif 4\""
+                    ],
+                    "body-lg": [
+                            "Hanken Grotesk"
+                    ],
+                    "body-md": [
+                            "Hanken Grotesk"
+                    ],
+                    "label-caps": [
+                            "Hanken Grotesk"
+                    ],
+                    "display-lg-mobile": [
+                            "\"Source Serif 4\""
+                    ],
+                    "stats-number": [
+                            "Hanken Grotesk"
+                    ],
+                    "headline-sm": [
+                            "\"Source Serif 4\""
+                    ]
+            },
+            "fontSize": {
+                    "headline-md": [
+                            "32px",
+                            {
+                                    "lineHeight": "40px",
+                                    "fontWeight": "600"
+                            }
+                    ],
+                    "display-lg": [
+                            "48px",
+                            {
+                                    "lineHeight": "56px",
+                                    "letterSpacing": "-0.02em",
+                                    "fontWeight": "700"
+                            }
+                    ],
+                    "body-lg": [
+                            "18px",
+                            {
+                                    "lineHeight": "28px",
+                                    "fontWeight": "400"
+                            }
+                    ],
+                    "body-md": [
+                            "16px",
+                            {
+                                    "lineHeight": "24px",
+                                    "fontWeight": "400"
+                            }
+                    ],
+                    "label-caps": [
+                            "12px",
+                            {
+                                    "lineHeight": "16px",
+                                    "letterSpacing": "0.05em",
+                                    "fontWeight": "700"
+                            }
+                    ],
+                    "display-lg-mobile": [
+                            "36px",
+                            {
+                                    "lineHeight": "42px",
+                                    "letterSpacing": "-0.01em",
+                                    "fontWeight": "700"
+                            }
+                    ],
+                    "stats-number": [
+                            "40px",
+                            {
+                                    "lineHeight": "40px",
+                                    "fontWeight": "800"
+                            }
+                    ],
+                    "headline-sm": [
+                            "24px",
+                            {
+                                    "lineHeight": "32px",
+                                    "fontWeight": "600"
+                            }
+                    ]
+            }
+    },
+        },
+      }
+    </script>
+</head>
+<body class="bg-ivory-bg text-on-surface font-body-md antialiased selection:bg-primary selection:text-on-primary">
+<!-- TopNavBar -->
+<nav class="bg-ivory-bg dark:bg-surface-dim sticky top-0 w-full border-b border-elegant dark:border-outline-variant z-50">
+<div class="flex justify-between items-center px-margin-page py-4 max-w-[1280px] mx-auto">
+<a class="font-headline-sm text-headline-sm font-bold text-deep-forest dark:text-primary-fixed" href="#">Ouzby Fofana</a>
+<div class="hidden md:flex items-center gap-6">
+<a class="font-body-md text-body-md font-label-caps text-label-caps text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#">Accueil</a>
+<a class="font-body-md text-body-md font-label-caps text-label-caps text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#">Parcours</a>
+<a class="font-body-md text-body-md font-label-caps text-label-caps text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#">Mandat</a>
+<a class="font-body-md text-body-md font-label-caps text-label-caps text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#">Vision</a>
+<a class="font-body-md text-body-md font-label-caps text-label-caps text-primary dark:text-primary-fixed-dim border-b-2 border-primary dark:border-primary-fixed-dim pb-1 hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#">Actualités</a>
+<a class="font-body-md text-body-md font-label-caps text-label-caps text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#">Contact</a>
+</div>
+<button class="hidden md:flex items-center justify-center bg-primary text-surface-white px-6 py-2 rounded-DEFAULT font-label-caps text-label-caps hover:bg-primary-container transition-colors">
+                Rejoindre
+            </button>
+<!-- Mobile Menu Toggle (Simplified) -->
+<button class="md:hidden text-deep-forest p-2">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</nav>
+<main class="max-w-[1280px] mx-auto px-margin-mobile md:px-margin-page py-section-gap">
+<!-- Header Section -->
+<header class="mb-section-gap max-w-3xl">
+<h1 class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary mb-stack-md">Espace Presse</h1>
+<p class="font-body-lg text-body-lg text-text-muted">
+                Ressources officielles, communiqués de presse et kit média destinés aux journalistes et institutions. Tous les documents sont mis à disposition sous licence libre pour usage éditorial.
+            </p>
+</header>
+<!-- Quick Download Dashboard & Contact Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-gutter mb-section-gap">
+<!-- Téléchargements Rapides -->
+<div class="lg:col-span-2 bg-surface-white border border-elegant rounded-lg p-stack-lg shadow-[0px_4px_12px_rgba(32,37,35,0.05)]">
+<h2 class="font-headline-sm text-headline-sm text-primary mb-stack-lg flex items-center gap-2">
+<span class="material-symbols-outlined">download</span> Accès Rapide
+                </h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-stack-md">
+<!-- Bio Links -->
+<div class="flex flex-col gap-stack-sm p-4 border border-elegant rounded-DEFAULT bg-ivory-bg hover:border-primary transition-colors">
+<span class="font-label-caps text-label-caps text-text-muted mb-2">Biographie Officielle</span>
+<a class="flex items-center justify-between text-primary hover:text-deep-forest font-body-md group" href="#">
+<span>Version Courte (50 mots)</span>
+<span class="material-symbols-outlined text-[20px] opacity-0 group-hover:opacity-100 transition-opacity">arrow_downward</span>
+</a>
+<div class="h-px bg-elegant w-full my-1"></div>
+<a class="flex items-center justify-between text-primary hover:text-deep-forest font-body-md group" href="#">
+<span>Version Standard (200 mots)</span>
+<span class="material-symbols-outlined text-[20px] opacity-0 group-hover:opacity-100 transition-opacity">arrow_downward</span>
+</a>
+<div class="h-px bg-elegant w-full my-1"></div>
+<a class="flex items-center justify-between text-primary hover:text-deep-forest font-body-md group" href="#">
+<span>Version Longue (500 mots)</span>
+<span class="material-symbols-outlined text-[20px] opacity-0 group-hover:opacity-100 transition-opacity">arrow_downward</span>
+</a>
+</div>
+<!-- Assets Links -->
+<div class="flex flex-col gap-stack-sm p-4 border border-elegant rounded-DEFAULT bg-ivory-bg hover:border-primary transition-colors">
+<span class="font-label-caps text-label-caps text-text-muted mb-2">Ressources Graphiques</span>
+<a class="flex items-center justify-between text-primary hover:text-deep-forest font-body-md group" href="#">
+<span>Portrait Officiel (JPG HD)</span>
+<span class="material-symbols-outlined text-[20px] opacity-0 group-hover:opacity-100 transition-opacity">arrow_downward</span>
+</a>
+<div class="h-px bg-elegant w-full my-1"></div>
+<a class="flex items-center justify-between text-primary hover:text-deep-forest font-body-md group" href="#">
+<span>Pack Logos RGA (SVG/PNG)</span>
+<span class="material-symbols-outlined text-[20px] opacity-0 group-hover:opacity-100 transition-opacity">arrow_downward</span>
+</a>
+<div class="h-px bg-elegant w-full my-1"></div>
+<a class="flex items-center justify-between text-primary hover:text-deep-forest font-body-md group" href="#">
+<span>Charte Graphique (PDF)</span>
+<span class="material-symbols-outlined text-[20px] opacity-0 group-hover:opacity-100 transition-opacity">arrow_downward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Contact Presse -->
+<div class="bg-primary text-surface-white border border-transparent rounded-lg p-stack-lg shadow-[0px_4px_12px_rgba(32,37,35,0.05)]">
+<h2 class="font-headline-sm text-headline-sm mb-stack-lg flex items-center gap-2">
+<span class="material-symbols-outlined">contact_support</span> Contact Presse
+                </h2>
+<div class="flex flex-col gap-stack-md">
+<div>
+<p class="font-label-caps text-label-caps text-primary-fixed mb-1">Direction de la Communication</p>
+<p class="font-body-md font-bold">Mme. Aminata Diallo</p>
+<p class="font-body-md opacity-90">Attachée de Presse</p>
+</div>
+<div class="flex flex-col gap-2 mt-2">
+<a class="flex items-center gap-3 font-body-md hover:text-primary-fixed transition-colors" href="mailto:presse@ouzbyfofana.gn">
+<span class="material-symbols-outlined text-[20px]">mail</span>
+                            presse@ouzbyfofana.gn
+                        </a>
+<a class="flex items-center gap-3 font-body-md hover:text-primary-fixed transition-colors" href="tel:+224600000000">
+<span class="material-symbols-outlined text-[20px]">phone</span>
+                            +224 600 00 00 00
+                        </a>
+</div>
+<a class="mt-4 inline-flex items-center justify-center gap-2 bg-[#25D366] text-surface-white px-4 py-3 rounded-full font-label-caps text-label-caps hover:bg-opacity-90 transition-all min-h-[48px]" href="#">
+<span class="material-symbols-outlined text-[20px]">forum</span>
+                        Canal WhatsApp Presse
+                    </a>
+</div>
+</div>
+</div>
+<!-- Portraits Gallery & Communiqués Section -->
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-gutter mb-section-gap">
+<!-- Galerie Portraits Officiels -->
+<section class="flex flex-col gap-stack-md">
+<div class="flex items-center justify-between border-b border-elegant pb-stack-sm mb-stack-sm">
+<h2 class="font-headline-sm text-headline-sm text-primary">Portraits Officiels</h2>
+<a class="font-label-caps text-label-caps text-primary hover:text-deep-forest underline" href="#">Tout télécharger</a>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-stack-md">
+<!-- Image 1 -->
+<div class="bg-surface-white border border-elegant rounded-DEFAULT overflow-hidden group cursor-pointer hover:border-primary transition-colors">
+<div class="aspect-[3/4] bg-surface-dim relative overflow-hidden">
+<!-- Using the placeholder as requested -->
+<img class="w-full h-full object-cover grayscale-[20%] group-hover:grayscale-0 transition-all duration-500" data-alt="Official portrait of Ouzby Fofana in traditional white guinean attire, medium close-up shot, looking directly at the camera with a subtle smile. High-key lighting, bright minimal background, highly detailed professional editorial photography style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXWeKJ-8btTFvRJMiCqNdhwoLgBqbyYu99ugPZzNBmBAwhbL_ow40T0mo2RP4ECshfyroOatJltJ8BWnOHoGCbFBACwSBS5oYLkxpsTNgV2FPbXBA0zgZZfmloOTW_KL7uUjzP3DUYADsMCjxySC0HQd4CIm7RqpoqESL4ZZIOiy06y5CAKGH34lznaKWeyNksoKd5qHn29QTcdh7g1r6VpS8zXEYhqqPaqIUPL-cD3lhkqPvl7ebw"/>
+<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="material-symbols-outlined text-surface-white text-display-lg" style="font-variation-settings: 'FILL' 1;">download</span>
+</div>
+</div>
+<div class="p-3 border-t border-elegant">
+<p class="font-label-caps text-label-caps text-primary mb-1">Portrait Standard</p>
+<p class="text-xs text-text-muted">JPG • 4500x3000px • 4.2 MB</p>
+</div>
+</div>
+<!-- Image 2 -->
+<div class="bg-surface-white border border-elegant rounded-DEFAULT overflow-hidden group cursor-pointer hover:border-primary transition-colors">
+<div class="aspect-[3/4] bg-surface-dim relative overflow-hidden">
+<img class="w-full h-full object-cover grayscale-[20%] group-hover:grayscale-0 transition-all duration-500" data-alt="Official portrait of Ouzby Fofana sitting at a desk with official documents, working in a bright institutional office. Natural light streaming from a window, shallow depth of field, professional editorial photography style conveying diligence and public service." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgViOMHRoYY_ssNcajd7LmRjM2jYobu0c8cqQfct5LHt9SWC4by5vyEq-fC5jQuPQRji10wQOGF8eKCgX5jcG6cGCvJFSvQYlmfl-XPPmI6k4ofPf8Qeo9N9pyur4cAv6Y0I-4Z7UUVkgZnr71fTqYygYaNMMbUyUj-EPKi7QzJrJ2jcFEJp9yludd2dbEAPwl5-ueXIfPmx44UMbtXYJ0YDlh0DiOALcAasxmLv9VC6QPLnX-niSw"/>
+<div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="material-symbols-outlined text-surface-white text-display-lg" style="font-variation-settings: 'FILL' 1;">download</span>
+</div>
+</div>
+<div class="p-3 border-t border-elegant">
+<p class="font-label-caps text-label-caps text-primary mb-1">En Action (Bureau)</p>
+<p class="text-xs text-text-muted">JPG • 4500x3000px • 5.1 MB</p>
+</div>
+</div>
+</div>
+<p class="text-xs text-text-muted mt-2">
+                    * Libre de droits pour utilisation presse stricte. Crédit photo obligatoire : <em>Cabinet Ouzby Fofana</em>.
+                </p>
+</section>
+<!-- Communiqués de Presse -->
+<section class="flex flex-col gap-stack-md">
+<div class="flex items-center justify-between border-b border-elegant pb-stack-sm mb-stack-sm">
+<h2 class="font-headline-sm text-headline-sm text-primary">Communiqués Récents</h2>
+<a class="font-label-caps text-label-caps text-primary hover:text-deep-forest underline" href="#">Voir les archives</a>
+</div>
+<div class="flex flex-col gap-0 border border-elegant rounded-DEFAULT bg-surface-white overflow-hidden">
+<!-- CP 1 -->
+<a class="p-stack-md border-b border-elegant hover:bg-ivory-bg transition-colors flex gap-stack-md group" href="#">
+<div class="flex-shrink-0 flex flex-col items-center justify-center w-16 bg-surface-container-low rounded p-2 text-center">
+<span class="font-label-caps text-label-caps text-text-muted">OCT</span>
+<span class="font-headline-sm text-headline-sm text-primary">24</span>
+</div>
+<div class="flex flex-col justify-center">
+<span class="font-label-caps text-label-caps text-text-muted mb-1">Économie &amp; Développement</span>
+<h3 class="font-body-md font-bold text-on-surface group-hover:text-primary transition-colors">Lancement du programme d'accompagnement pour les PME agricoles</h3>
+<div class="flex gap-4 mt-2">
+<span class="text-xs text-text-muted flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">description</span> PDF (1.2 MB)</span>
+</div>
+</div>
+</a>
+<!-- CP 2 -->
+<a class="p-stack-md border-b border-elegant hover:bg-ivory-bg transition-colors flex gap-stack-md group" href="#">
+<div class="flex-shrink-0 flex flex-col items-center justify-center w-16 bg-surface-container-low rounded p-2 text-center">
+<span class="font-label-caps text-label-caps text-text-muted">OCT</span>
+<span class="font-headline-sm text-headline-sm text-primary">12</span>
+</div>
+<div class="flex flex-col justify-center">
+<span class="font-label-caps text-label-caps text-text-muted mb-1">Infrastructure</span>
+<h3 class="font-body-md font-bold text-on-surface group-hover:text-primary transition-colors">Inauguration du nouveau centre de formation technique de Conakry</h3>
+<div class="flex gap-4 mt-2">
+<span class="text-xs text-text-muted flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">description</span> PDF (850 KB)</span>
+</div>
+</div>
+</a>
+<!-- CP 3 -->
+<a class="p-stack-md hover:bg-ivory-bg transition-colors flex gap-stack-md group" href="#">
+<div class="flex-shrink-0 flex flex-col items-center justify-center w-16 bg-surface-container-low rounded p-2 text-center">
+<span class="font-label-caps text-label-caps text-text-muted">SEP</span>
+<span class="font-headline-sm text-headline-sm text-primary">28</span>
+</div>
+<div class="flex flex-col justify-center">
+<span class="font-label-caps text-label-caps text-text-muted mb-1">Déclaration Officielle</span>
+<h3 class="font-body-md font-bold text-on-surface group-hover:text-primary transition-colors">Bilan trimestriel des actions gouvernementales - Troisième trimestre</h3>
+<div class="flex gap-4 mt-2">
+<span class="text-xs text-text-muted flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">description</span> PDF (2.4 MB)</span>
+</div>
+</div>
+</a>
+</div>
+</section>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-deep-forest dark:bg-surface-container-lowest w-full py-section-gap border-t-0">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-page max-w-[1280px] mx-auto">
+<div class="md:col-span-1">
+<span class="font-headline-md text-headline-md text-surface-white dark:text-primary block mb-stack-md">Ouzby Fofana</span>
+<p class="font-body-md text-body-md text-surface-variant dark:text-on-surface-variant">© 2024 L’Honorable Ansoumane Fofana. Tous droits réservés.</p>
+</div>
+<div class="md:col-span-3 flex flex-wrap gap-x-8 gap-y-4 md:justify-end items-start pt-2">
+<a class="font-body-md text-body-md font-label-caps text-label-caps text-secondary-fixed dark:text-secondary font-bold hover:text-secondary-fixed-dim dark:hover:text-secondary transition-colors" href="#">Presse</a>
+<a class="font-body-md text-body-md font-label-caps text-label-caps text-surface-variant dark:text-on-surface-variant hover:text-secondary-fixed-dim dark:hover:text-secondary transition-colors" href="#">Agenda</a>
+<a class="font-body-md text-body-md font-label-caps text-label-caps text-surface-variant dark:text-on-surface-variant hover:text-secondary-fixed-dim dark:hover:text-secondary transition-colors" href="#">Galerie</a>
+<a class="font-body-md text-body-md font-label-caps text-label-caps text-surface-variant dark:text-on-surface-variant hover:text-secondary-fixed-dim dark:hover:text-secondary transition-colors" href="#">Mentions Légales</a>
+<a class="font-body-md text-body-md font-label-caps text-label-caps text-surface-variant dark:text-on-surface-variant hover:text-secondary-fixed-dim dark:hover:text-secondary transition-colors" href="#">Confidentialité</a>
+</div>
+</div>
+</footer>
+</body></html>

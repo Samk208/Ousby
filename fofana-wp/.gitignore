@@ -1,0 +1,23 @@
+# Vendor (GeneratePress Pro zip, etc.)
+vendor/
+*.zip
+
+# Environment files
+.env*
+.env.deploy
+
+# WordPress core (should not be in repo)
+wp-config.php
+*.sql
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Exports (outside git by design)
+exports/

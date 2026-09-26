@@ -1,0 +1,209 @@
+@import "tailwindcss";
+
+:root {
+  --background: #faf8f2;
+  --foreground: #181d1b;
+}
+
+@theme {
+  /* === RÉPUBLIQUE MODERNE — Ansoumane Fofana === */
+
+  /* PRIMARY — Institutional Green */
+  --color-primary: #005f39;
+  --color-primary-container: #087a4b;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #a4ffc7;
+  --color-deep-forest: #075c3b;
+
+  /* SECONDARY — Warm Gold */
+  --color-secondary: #785a00;
+  --color-secondary-container: #fcc748;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #705300;
+
+  /* TERTIARY — Guinea Red */
+  --color-tertiary: #a01e23;
+  --color-tertiary-container: #c23738;
+  --color-on-tertiary: #ffffff;
+
+  /* SURFACES — Ivory & Sage */
+  --color-ivory-bg: #faf8f2;
+  --color-surface: #f6faf7;
+  --color-surface-white: #ffffff;
+  --color-surface-dim: #d7dbd8;
+  --color-surface-container: #eaefeb;
+  --color-surface-container-low: #f0f5f1;
+  --color-surface-container-high: #e5e9e6;
+  --color-surface-variant: #dfe4e0;
+  --color-on-surface: #181d1b;
+  --color-on-surface-variant: #3e4941;
+  --color-text-muted: #626a66;
+  --color-border-elegant: #dee5df;
+  --color-outline-variant: #becabf;
+
+  /* TYPOGRAPHY */
+  --font-heading: "Source Serif 4", serif;
+  --font-body: "Hanken Grotesk", sans-serif;
+
+  /* RADIUS */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+
+  /* SPACING */
+  --spacing-gutter: 1.5rem;
+  --spacing-stack-sm: 0.5rem;
+  --spacing-stack-md: 1rem;
+  --spacing-stack-lg: 2rem;
+  --spacing-section-gap: 5rem;
+  --spacing-margin-page: 2rem;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+
+/* === UTILITY CLASSES === */
+
+.soft-shadow {
+  box-shadow: 0px 4px 12px rgba(32, 37, 35, 0.05);
+}
+
+.elevated-shadow {
+  box-shadow:
+    0 12px 32px -4px rgba(32, 37, 35, 0.08),
+    0 4px 12px -2px rgba(32, 37, 35, 0.04);
+}
+
+.glow-spot {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(120px);
+  opacity: 0.12;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.premium-card {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.premium-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px -8px rgba(32, 37, 35, 0.1);
+}
+
+/* Tricolour accent — Guinea: Red, Gold, Green */
+.tricolour-rule {
+  height: 4px;
+  width: 100%;
+  display: flex;
+}
+.rule-red {
+  background: linear-gradient(90deg, #a01e23, #c23738);
+  flex: 1;
+}
+.rule-gold {
+  background: linear-gradient(90deg, #d6a526, #fcc748);
+  flex: 1;
+}
+.rule-green {
+  background: linear-gradient(90deg, #087a4b, #005f39);
+  flex: 1;
+}
+
+/* === ANIMATIONS === */
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.03);
+  }
+}
+
+@keyframes scroll-hint {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(8px);
+    opacity: 0;
+  }
+}
+
+.shimmer-gold {
+  background: linear-gradient(90deg, #d6a526 0%, #fcc748 50%, #d6a526 100%);
+  background-size: 200% auto;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: shimmer 4s linear infinite;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+.scroll-indicator {
+  animation: scroll-hint 1.5s ease-in-out infinite;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Selection */
+::selection {
+  background-color: #087a4b;
+  color: #ffffff;
+}

@@ -1,0 +1,29 @@
+# IDE cache
+.qoder/
+
+# Dependencies
+node_modules/
+
+# Next.js build
+.next/
+
+# Vercel temp files
+.vercel-tmp/
+
+# Local by Flywheel (WordPress local dev)
+# wp-content is symlinked — the actual files live in fofana-wp/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Environment files
+.env
+.env.local
+.env.production

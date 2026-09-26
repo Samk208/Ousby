@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+
+<html class="light" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>L'Honorable Ansoumane Fofana - Accueil</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700;800&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface": "#f6faf7",
+                      "ivory-bg": "#FAF8F2",
+                      "on-surface": "#181d1b",
+                      "tertiary-container": "#c23738",
+                      "outline": "#6e7a71",
+                      "on-background": "#181d1b",
+                      "surface-bright": "#f6faf7",
+                      "on-secondary-fixed-variant": "#5b4300",
+                      "primary-fixed-dim": "#7adaa2",
+                      "surface-container": "#eaefeb",
+                      "on-tertiary": "#ffffff",
+                      "surface-tint": "#006d42",
+                      "on-tertiary-container": "#ffe6e4",
+                      "background": "#f6faf7",
+                      "surface-dim": "#d7dbd8",
+                      "surface-variant": "#dfe4e0",
+                      "on-tertiary-fixed": "#410004",
+                      "surface-container-lowest": "#ffffff",
+                      "text-muted": "#626A66",
+                      "primary-fixed": "#96f6bc",
+                      "on-surface-variant": "#3e4941",
+                      "on-primary-fixed-variant": "#005230",
+                      "deep-forest": "#075C3B",
+                      "on-tertiary-fixed-variant": "#8f0f19",
+                      "surface-container-highest": "#dfe4e0",
+                      "outline-variant": "#becabf",
+                      "border-elegant": "#DEE5DF",
+                      "inverse-on-surface": "#edf2ee",
+                      "secondary": "#785a00",
+                      "secondary-container": "#fcc748",
+                      "tertiary-fixed": "#ffdad7",
+                      "on-primary-container": "#a4ffc7",
+                      "surface-white": "#FFFFFF",
+                      "on-primary": "#ffffff",
+                      "primary-container": "#087a4b",
+                      "tertiary-fixed-dim": "#ffb3ae",
+                      "on-secondary-fixed": "#251a00",
+                      "surface-container-high": "#e5e9e6",
+                      "error-container": "#ffdad6",
+                      "surface-container-low": "#f0f5f1",
+                      "primary": "#005f39",
+                      "on-secondary": "#ffffff",
+                      "inverse-primary": "#7adaa2",
+                      "on-error": "#ffffff",
+                      "on-error-container": "#93000a",
+                      "secondary-fixed-dim": "#f3bf40",
+                      "on-primary-fixed": "#002110",
+                      "secondary-fixed": "#ffdf9d",
+                      "tertiary": "#a01e23",
+                      "inverse-surface": "#2c312f",
+                      "error": "#ba1a1a",
+                      "on-secondary-container": "#705300"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "gutter": "1.5rem",
+                      "stack-md": "1rem",
+                      "margin-mobile": "1.25rem",
+                      "stack-lg": "2rem",
+                      "stack-sm": "0.5rem",
+                      "section-gap": "5rem",
+                      "margin-page": "2rem"
+              },
+              "fontFamily": {
+                      "body-md": [
+                              "Hanken Grotesk"
+                      ],
+                      "display-lg-mobile": [
+                              "\"Source Serif 4\""
+                      ],
+                      "headline-sm": [
+                              "\"Source Serif 4\""
+                      ],
+                      "stats-number": [
+                              "Hanken Grotesk"
+                      ],
+                      "headline-md": [
+                              "\"Source Serif 4\""
+                      ],
+                      "display-lg": [
+                              "\"Source Serif 4\""
+                      ],
+                      "label-caps": [
+                              "Hanken Grotesk"
+                      ],
+                      "body-lg": [
+                              "Hanken Grotesk"
+                      ]
+              },
+              "fontSize": {
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "display-lg-mobile": [
+                              "36px",
+                              {
+                                      "lineHeight": "42px",
+                                      "letterSpacing": "-0.01em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "headline-sm": [
+                              "24px",
+                              {
+                                      "lineHeight": "32px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "stats-number": [
+                              "40px",
+                              {
+                                      "lineHeight": "40px",
+                                      "fontWeight": "800"
+                              }
+                      ],
+                      "headline-md": [
+                              "32px",
+                              {
+                                      "lineHeight": "40px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "display-lg": [
+                              "48px",
+                              {
+                                      "lineHeight": "56px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "label-caps": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "letterSpacing": "0.05em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "body-lg": [
+                              "18px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "400"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+      </script>
+<style>
+        .material-symbols-outlined {
+          font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .material-symbols-outlined.filled {
+          font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+      </style>
+</head>
+<body class="bg-ivory-bg text-on-surface font-body-md antialiased overflow-x-hidden">
+<!-- TopNavBar -->
+<nav class="bg-ivory-bg dark:bg-surface-dim font-body-md text-body-md font-label-caps text-label-caps sticky top-0 w-full border-b border-elegant dark:border-outline-variant flat no shadows z-50">
+<div class="flex justify-between items-center px-margin-page py-4 max-w-[1280px] mx-auto">
+<a class="font-headline-sm text-headline-sm font-bold text-deep-forest dark:text-primary-fixed" href="#">Ouzby Fofana</a>
+<div class="hidden md:flex items-center gap-gutter">
+<a class="text-primary dark:text-primary-fixed-dim border-b-2 border-primary dark:border-primary-fixed-dim pb-1 hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#">Accueil</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#">Parcours</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#">Mandat</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#">Vision</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#">Actualités</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors duration-200" href="#">Contact</a>
+</div>
+<button class="hidden md:inline-flex items-center justify-center bg-primary text-surface-white rounded px-6 py-3 font-label-caps hover:bg-primary-container transition-colors">
+                Rejoindre
+            </button>
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined text-2xl">menu</span>
+</button>
+</div>
+</nav>
+<main>
+<!-- Hero Section -->
+<section class="max-w-[1280px] mx-auto px-margin-page py-section-gap grid grid-cols-1 lg:grid-cols-2 gap-section-gap items-center min-h-[80vh]">
+<div class="space-y-stack-lg z-10">
+<div class="space-y-stack-sm">
+<span class="font-label-caps text-label-caps text-text-muted uppercase tracking-widest">Assemblée Nationale de Guinée</span>
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-deep-forest">L'Honorable Ansoumane Fofana</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">Député national · Fondateur et Président du RGA</p>
+</div>
+<blockquote class="border-l-4 border-secondary-container pl-6 py-2">
+<p class="font-headline-sm text-headline-sm text-primary italic">« Servir le peuple, construire la nation. »</p>
+</blockquote>
+<div class="flex flex-wrap gap-stack-md pt-stack-md">
+<button class="bg-primary text-surface-white rounded px-8 py-4 font-label-caps hover:bg-deep-forest transition-colors">
+                        Découvrir le bilan
+                    </button>
+<button class="bg-transparent border border-elegant text-primary rounded px-8 py-4 font-label-caps hover:border-primary transition-colors flex items-center gap-2">
+<span class="material-symbols-outlined text-lg">play_circle</span>
+                        Voir le discours
+                    </button>
+</div>
+</div>
+<div class="relative h-[600px] w-full rounded-xl overflow-hidden shadow-2xl">
+<!-- Abstract background shapes -->
+<div class="absolute inset-0 bg-gradient-to-tr from-surface-container to-surface-white opacity-50 mix-blend-multiply"></div>
+<div class="absolute -top-24 -right-24 w-96 h-96 bg-primary-fixed-dim rounded-full blur-3xl opacity-20"></div>
+<div class="absolute -bottom-24 -left-24 w-72 h-72 bg-secondary-fixed rounded-full blur-3xl opacity-20"></div>
+<img class="absolute inset-0 w-full h-full object-cover rounded-xl" data-alt="Portrait professionnel de l'Honorable Ansoumane Fofana. Un homme politique guinéen charismatique et confiant, vêtu d'un costume élégant. Éclairage de studio sophistiqué, arrière-plan neutre mais texturé. Style éditorial moderne, respirant l'autorité et la bienveillance." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUQi5xGgX0Twjj73hFS9emsrrHp0XBmeD99k-rErz49kXC2HQSvgJOiDVOpnYCz_db1IOVVOQxd_tEJ0QEpABx2vNWVYePPz77GFmKMth1An5I8LH1AWOPVpvYAhaFPF0i_sUkBtG0LfdPL9E2J4QTG3cRbQFQq4bIaXknpbuYwokuQs2CUQ_5TbKyIU8AH6q9XVpXy1OiWCyQRJR0S9ghCEZrrkuFaHq3V1rJlWgf-sb8zWcBDQFe"/>
+</div>
+</section>
+<!-- Status Strip -->
+<div class="bg-surface-white border-y border-elegant py-8">
+<div class="max-w-[1280px] mx-auto px-margin-page flex flex-wrap justify-between items-center gap-stack-lg font-label-caps text-label-caps text-text-muted">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">how_to_vote</span>
+                    Député national
+                </div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">account_balance</span>
+                    Assemblée nationale
+                </div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">group</span>
+                    Président du RGA
+                </div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">flag</span>
+                    Engagement depuis 2010
+                </div>
+</div>
+</div>
+<!-- Introduction -->
+<section class="max-w-[1280px] mx-auto px-margin-page py-section-gap grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<div class="lg:col-span-5 h-[500px] rounded-xl overflow-hidden relative">
+<img class="absolute inset-0 w-full h-full object-cover" data-alt="L'Honorable Ansoumane Fofana sur le terrain en Guinée. Il interagit chaleureusement avec des citoyens dans un village, entouré de sourires. Ambiance de fin de journée, lumière dorée et naturelle. Photographie documentaire politique de haute qualité, capturant l'authenticité et la proximité." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAx-iX0qwffnvW1ma1ghdR-8GdyMQ3NVbDq8asJCteDae92baRcQtjyjowOEmn9GQ0gZHZYt4VtqMlmBV0bkFB9kLQgG8p52huPoW50IK7IUo5pysAgtGzKfvLUMDpg1xZXRwqh7eZIgSKFh6RxNmK-_KyuCMx1egt4gnKM9uUt1Zcc9KdXB6W2MslqqOTnR1VPAs-pMtaq9jRNemToIDj63RryAiYtkQ3bIsI4_Qkj9s8zqN8xEB5m"/>
+</div>
+<div class="lg:col-span-7 lg:pl-gutter space-y-stack-lg flex flex-col justify-center h-full">
+<div class="space-y-stack-sm">
+<span class="font-label-caps text-label-caps text-primary uppercase tracking-widest">Au service de la Guinée</span>
+<h2 class="font-headline-md text-headline-md text-deep-forest">Une vie dédiée à l'intérêt général et au développement durable de notre nation.</h2>
+</div>
+<div class="font-body-lg text-body-lg text-on-surface-variant space-y-stack-md">
+<p>Mon engagement politique n'a qu'un seul objectif : bâtir une Guinée où chaque citoyen, quelle que soit son origine, trouve sa place et prospère dans un climat de paix et de justice sociale.</p>
+<p>Depuis la fondation du RGA jusqu'à mon mandat à l'Assemblée Nationale, je m'efforce de porter la voix de ceux qui ne sont pas entendus et de proposer des lois concrètes pour notre avenir commun.</p>
+</div>
+<a class="inline-flex items-center gap-2 text-primary font-label-caps hover:text-deep-forest transition-colors" href="#">
+                    Lire ma biographie complète
+                    <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</section>
+<!-- Statistics -->
+<section class="bg-surface py-section-gap border-y border-elegant">
+<div class="max-w-[1280px] mx-auto px-margin-page grid grid-cols-2 md:grid-cols-5 gap-gutter text-center">
+<div class="space-y-2">
+<div class="font-stats-number text-stats-number text-secondary-container">70,738</div>
+<div class="font-label-caps text-label-caps text-text-muted">Voix</div>
+</div>
+<div class="space-y-2">
+<div class="font-stats-number text-stats-number text-secondary-container">1</div>
+<div class="font-label-caps text-label-caps text-text-muted">Siège</div>
+</div>
+<div class="space-y-2">
+<div class="font-stats-number text-stats-number text-secondary-container">27</div>
+<div class="font-label-caps text-label-caps text-text-muted">Conseillers</div>
+</div>
+<div class="space-y-2">
+<div class="font-stats-number text-stats-number text-secondary-container">33+</div>
+<div class="font-label-caps text-label-caps text-text-muted">Préfectures</div>
+</div>
+<div class="space-y-2">
+<div class="font-stats-number text-stats-number text-secondary-container">2010</div>
+<div class="font-label-caps text-label-caps text-text-muted">Fondation</div>
+</div>
+</div>
+</section>
+<!-- Vision -->
+<section class="bg-primary-container text-surface-white py-section-gap relative overflow-hidden">
+<div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 32px 32px;"></div>
+<div class="max-w-[1280px] mx-auto px-margin-page relative z-10 text-center space-y-stack-lg">
+<h2 class="font-headline-md text-headline-md">Ma vision pour la Guinée</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter mt-stack-lg">
+<div class="bg-deep-forest/50 p-8 rounded-xl border border-surface-white/10 backdrop-blur-sm space-y-4">
+<span class="material-symbols-outlined text-4xl text-on-primary-container mb-4">gavel</span>
+<h3 class="font-headline-sm text-headline-sm text-on-primary-container">VÉRITÉ</h3>
+<p class="font-body-md text-on-tertiary-container opacity-90">Transparence dans l'action publique et intégrité parlementaire sans compromis.</p>
+</div>
+<div class="bg-deep-forest/50 p-8 rounded-xl border border-surface-white/10 backdrop-blur-sm space-y-4">
+<span class="material-symbols-outlined text-4xl text-secondary-container mb-4">handshake</span>
+<h3 class="font-headline-sm text-headline-sm text-secondary-container">LOYAUTÉ</h3>
+<p class="font-body-md text-on-tertiary-container opacity-90">Fidélité aux engagements pris envers le peuple guinéen et défense de ses intérêts.</p>
+</div>
+<div class="bg-deep-forest/50 p-8 rounded-xl border border-surface-white/10 backdrop-blur-sm space-y-4">
+<span class="material-symbols-outlined text-4xl text-surface-white mb-4">public</span>
+<h3 class="font-headline-sm text-headline-sm text-surface-white">PAIX</h3>
+<p class="font-body-md text-on-tertiary-container opacity-90">Promotion constante du dialogue national et de la cohésion sociale durable.</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-deep-forest dark:bg-surface-container-lowest font-body-md text-body-md font-label-caps text-label-caps w-full py-section-gap flat no shadows mt-auto">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-page max-w-[1280px] mx-auto">
+<div class="col-span-1 md:col-span-1 space-y-4">
+<div class="font-headline-md text-headline-md text-surface-white dark:text-primary">Ouzby Fofana</div>
+<p class="text-surface-variant text-sm">Député national et Président du RGA. Engagé pour le développement de la Guinée.</p>
+</div>
+<div class="col-span-1 md:col-span-2 flex flex-wrap gap-8 justify-start md:justify-center">
+<a class="text-surface-variant dark:text-on-surface-variant hover:text-secondary-fixed-dim dark:hover:text-secondary transition-colors" href="#">Presse</a>
+<a class="text-surface-variant dark:text-on-surface-variant hover:text-secondary-fixed-dim dark:hover:text-secondary transition-colors" href="#">Agenda</a>
+<a class="text-surface-variant dark:text-on-surface-variant hover:text-secondary-fixed-dim dark:hover:text-secondary transition-colors" href="#">Galerie</a>
+<a class="text-surface-variant dark:text-on-surface-variant hover:text-secondary-fixed-dim dark:hover:text-secondary transition-colors" href="#">Mentions Légales</a>
+<a class="text-surface-variant dark:text-on-surface-variant hover:text-secondary-fixed-dim dark:hover:text-secondary transition-colors" href="#">Confidentialité</a>
+</div>
+<div class="col-span-1 md:col-span-1 text-left md:text-right text-surface-variant text-sm mt-8 md:mt-0">
+                © 2024 L’Honorable Ansoumane Fofana. Tous droits réservés.
+            </div>
+</div>
+</footer>
+</body></html>

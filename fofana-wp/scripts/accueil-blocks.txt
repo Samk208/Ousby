@@ -1,0 +1,154 @@
+<!-- wp:group {"align":"full","className":"fofana-hero","layout":{"type":"constrained","wideSize":"100%","contentSize":"1280px"}} -->
+<div class="wp-block-group alignfull fofana-hero" style="background-color:#075C3B;background-image:url({{HERO_URL}});background-size:cover;background-position:top center">
+<div class="fofana-hero-overlay" style="padding-top:6rem;padding-bottom:6rem">
+<!-- wp:columns {"verticalAlignment":"center","className":"fofana-hero-grid","style":{"spacing":{"blockGap":{"left":"3rem"}}}} -->
+<div class="wp-block-columns are-vertically-aligned-center fofana-hero-grid">
+<!-- wp:column {"verticalAlignment":"center","width":"58%","className":"fofana-hero-text"} -->
+<div class="wp-block-column is-vertically-aligned-center fofana-hero-text" style="flex-basis:58%">
+<p class="fofana-label-caps" style="color:#fcc748;background:rgba(252,199,72,0.1);display:inline-block;padding:0.375rem 1rem;border-radius:9999px;border:1px solid rgba(252,199,72,0.3)">&#x25CF; Site Officiel — Député de la République</p>
+<h1 class="wp-block-heading" style="font-size:48px;line-height:1.1;color:#ffffff;margin-top:1.5rem;margin-bottom:1.5rem">L&#x2019;Honorable<br><span style="color:#fcc748">Ansoumane Fofana</span></h1>
+<blockquote style="border-left:4px solid #fcc748;padding-left:1rem;margin-bottom:2rem"><p style="color:rgba(255,255,255,0.9);font-size:20px;font-style:italic;line-height:1.5">&#xAB; Servir le peuple, construire la nation &#xBB;</p></blockquote>
+<p style="color:rgba(255,255,255,0.8);font-size:18px;line-height:1.6;margin-bottom:2rem;max-width:540px">Député de la République de Guinée et Président fondateur du RGA. Élu avec 70 738 voix pour porter la voix du peuple à l&#x2019;Assemblée nationale.</p>
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"secondary-container","textColor":"on-surface","className":"is-style-fill","style":{"border":{"radius":"4px"},"spacing":{"padding":{"top":"0.875rem","bottom":"0.875rem","left":"2rem","right":"2rem"}}}} -->
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-on-surface-color has-secondary-container-background-color has-text-color has-background" href="/mandat/" style="padding-top:0.875rem;padding-right:2rem;padding-bottom:0.875rem;padding-left:2rem;border-radius:4px;font-weight:700;text-transform:uppercase;font-size:13px;letter-spacing:0.03em">Découvrir le mandat &#x2192;</a></div>
+<!-- /wp:button -->
+<!-- wp:button {"className":"is-style-outline","style":{"border":{"radius":"4px"},"spacing":{"padding":{"top":"0.875rem","bottom":"0.875rem","left":"2rem","right":"2rem"}}}} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link" href="/vision/" style="padding-top:0.875rem;padding-right:2rem;padding-bottom:0.875rem;padding-left:2rem;border-radius:4px;font-weight:700;text-transform:uppercase;font-size:13px;letter-spacing:0.03em;border-color:rgba(255,255,255,0.3);color:#ffffff">Notre vision</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+</div>
+<!-- /wp:column -->
+<!-- wp:column {"verticalAlignment":"center","width":"42%","className":"fofana-hero-portrait"} -->
+<div class="wp-block-column is-vertically-aligned-center fofana-hero-portrait" style="flex-basis:42%">
+<figure class="wp-block-image" style="border-radius:12px;overflow:hidden;border:2px solid rgba(255,255,255,0.2);max-width:380px;margin-left:auto;aspect-ratio:3/4"><img src="{{HERO_URL}}" alt="Portrait officiel — L&#x2019;Honorable Ansoumane Fofana" style="object-fit:cover;width:100%;height:100%"/></figure>
+<div class="fofana-hero-card" style="max-width:380px;margin:1rem auto 0">
+<p style="color:#fcc748;font-weight:600;font-size:16px;margin:0">L&#x2019;Honorable Ansoumane Fofana</p>
+<p style="color:rgba(255,255,255,0.8);font-size:12px;margin:0.25rem 0 0">Président du RGA &amp; Député National</p>
+</div>
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+</div>
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","layout":{"type":"constrained","contentSize":"1280px"},"style":{"spacing":{"padding":{"top":"1rem","bottom":"1rem"}},"border":{"bottom":"1px solid #DEE5DF"}}} -->
+<div class="wp-block-group alignfull" style="border-bottom:1px solid #DEE5DF;padding-top:1rem;padding-bottom:1rem;background:rgba(8,122,75,0.05)">
+<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:0.5rem 2rem">
+<span class="fofana-label-caps" style="display:flex;align-items:center;gap:0.5rem"><span style="width:6px;height:6px;border-radius:50%;background:#087a4b;display:inline-block"></span>Député national</span>
+<span class="fofana-label-caps" style="display:flex;align-items:center;gap:0.5rem"><span style="width:6px;height:6px;border-radius:50%;background:#087a4b;display:inline-block"></span>Assemblée nationale de Guinée</span>
+<span class="fofana-label-caps" style="display:flex;align-items:center;gap:0.5rem"><span style="width:6px;height:6px;border-radius:50%;background:#087a4b;display:inline-block"></span>Président du RGA</span>
+<span class="fofana-label-caps" style="display:flex;align-items:center;gap:0.5rem"><span style="width:6px;height:6px;border-radius:50%;background:#087a4b;display:inline-block"></span>Engagement depuis 2010</span>
+</div>
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","layout":{"type":"constrained","contentSize":"1280px"},"style":{"spacing":{"padding":{"top":"5rem","bottom":"5rem"}}}} -->
+<div class="wp-block-group alignfull fofana-reveal" style="padding-top:5rem;padding-bottom:5rem">
+<p class="fofana-label-caps" style="text-align:center;margin-bottom:0.5rem">Chiffres clés</p>
+<h2 class="wp-block-heading" style="text-align:center;font-size:32px;margin-bottom:3rem;color:#005f39">Résultats électoraux &amp; implantation</h2>
+<!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"1.5rem"}}}} -->
+<div class="wp-block-columns">
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"1.5rem","bottom":"1.5rem","left":"1.5rem","right":"1.5rem"}},"border":{"width":"1px","color":"#DEE5DF","radius":"8px"}}} -->
+<div class="wp-block-column has-border-color" style="border-color:#DEE5DF;border-width:1px;border-radius:8px;padding-top:1.5rem;padding-right:1.5rem;padding-bottom:1.5rem;padding-left:1.5rem;text-align:center;background:#ffffff">
+<p class="fofana-stat-number"><span class="fofana-counter" data-target="70738">0</span></p>
+<p class="fofana-label-caps" style="margin-top:0.5rem">Voix obtenues</p>
+</div>
+<!-- /wp:column -->
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"1.5rem","bottom":"1.5rem","left":"1.5rem","right":"1.5rem"}},"border":{"width":"1px","color":"#DEE5DF","radius":"8px"}}} -->
+<div class="wp-block-column has-border-color" style="border-color:#DEE5DF;border-width:1px;border-radius:8px;padding-top:1.5rem;padding-right:1.5rem;padding-bottom:1.5rem;padding-left:1.5rem;text-align:center;background:#ffffff">
+<p class="fofana-stat-number"><span class="fofana-counter" data-target="1">0</span></p>
+<p class="fofana-label-caps" style="margin-top:0.5rem">Député national</p>
+</div>
+<!-- /wp:column -->
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"1.5rem","bottom":"1.5rem","left":"1.5rem","right":"1.5rem"}},"border":{"width":"1px","color":"#DEE5DF","radius":"8px"}}} -->
+<div class="wp-block-column has-border-color" style="border-color:#DEE5DF;border-width:1px;border-radius:8px;padding-top:1.5rem;padding-right:1.5rem;padding-bottom:1.5rem;padding-left:1.5rem;text-align:center;background:#ffffff">
+<p class="fofana-stat-number"><span class="fofana-counter" data-target="27">0</span></p>
+<p class="fofana-label-caps" style="margin-top:0.5rem">Conseillers communaux</p>
+</div>
+<!-- /wp:column -->
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"1.5rem","bottom":"1.5rem","left":"1.5rem","right":"1.5rem"}},"border":{"width":"1px","color":"#DEE5DF","radius":"8px"}}} -->
+<div class="wp-block-column has-border-color" style="border-color:#DEE5DF;border-width:1px;border-radius:8px;padding-top:1.5rem;padding-right:1.5rem;padding-bottom:1.5rem;padding-left:1.5rem;text-align:center;background:#ffffff">
+<p class="fofana-stat-number"><span class="fofana-counter" data-target="33">0</span>+</p>
+<p class="fofana-label-caps" style="margin-top:0.5rem">Préfectures couvertes</p>
+</div>
+<!-- /wp:column -->
+<!-- wp:column {"style":{"spacing":{"padding":{"top":"1.5rem","bottom":"1.5rem","left":"1.5rem","right":"1.5rem"}},"border":{"width":"1px","color":"#DEE5DF","radius":"8px"}}} -->
+<div class="wp-block-column has-border-color" style="border-color:#DEE5DF;border-width:1px;border-radius:8px;padding-top:1.5rem;padding-right:1.5rem;padding-bottom:1.5rem;padding-left:1.5rem;text-align:center;background:#ffffff">
+<p class="fofana-stat-number"><span class="fofana-counter" data-target="2010">0</span></p>
+<p class="fofana-label-caps" style="margin-top:0.5rem">Engagement depuis</p>
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","layout":{"type":"constrained","contentSize":"1280px"},"style":{"spacing":{"padding":{"top":"5rem","bottom":"5rem"}},"color":{"background":"#faf8f2"}}} -->
+<div class="wp-block-group alignfull has-background fofana-reveal" style="background-color:#faf8f2;padding-top:5rem;padding-bottom:5rem">
+<p class="fofana-label-caps" style="margin-bottom:0.5rem">Introduction</p>
+<h2 class="wp-block-heading" style="font-size:32px;line-height:1.15;color:#005f39;margin-bottom:2rem">Une vision pour la Guinée</h2>
+<!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"left":"3rem"}}}} -->
+<div class="wp-block-columns are-vertically-aligned-center">
+<!-- wp:column {"verticalAlignment":"center","width":"55%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:55%">
+<p style="font-size:17px;line-height:1.7;color:#3e4941;margin-bottom:1.5rem">Leader politique, entrepreneur social et fervent défenseur des valeurs républicaines, l&#x2019;Honorable Ansoumane Fofana incarne une nouvelle génération de responsables guinéens. Son parcours est marqué par une volonté constante de bâtir des ponts entre l&#x2019;expérience acquise sur le terrain et la nécessité de réformes institutionnelles profondes.</p>
+<p style="font-size:16px;line-height:1.7;color:#3e4941;margin-bottom:2rem">Fondateur et président du Rassemblement pour la Guinée (RGA) depuis 2010, il porte une vision de gouvernance méthodique et solidaire pour les 33 préfectures du pays.</p>
+<p><a href="/parcours/" style="color:#005f39;font-weight:700;font-size:14px">En savoir plus sur son parcours &#x2192;</a></p>
+</div>
+<!-- /wp:column -->
+<!-- wp:column {"verticalAlignment":"center","width":"45%"} -->
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:45%">
+<figure class="wp-block-image" style="border-radius:12px;overflow:hidden;border:1px solid #DEE5DF;aspect-ratio:3/4"><img src="{{COMMUNITY_URL}}" alt="Rencontre communautaire dans les préfectures de Guinée" style="object-fit:cover;width:100%;height:100%"/></figure>
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","layout":{"type":"constrained","contentSize":"1280px"},"style":{"spacing":{"padding":{"top":"5rem","bottom":"5rem"}},"color":{"background":"#087a4b"}}} -->
+<div class="wp-block-group alignfull has-background fofana-reveal" style="background-color:#087a4b;padding-top:5rem;padding-bottom:5rem">
+<p class="fofana-label-caps" style="text-align:center;color:rgba(255,255,255,0.7);margin-bottom:0.5rem">Nos piliers</p>
+<h2 class="wp-block-heading" style="text-align:center;font-size:32px;color:#ffffff;margin-bottom:3rem">Vérité · Loyauté · Paix</h2>
+<!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"2rem"}}}} -->
+<div class="wp-block-columns">
+<!-- wp:column -->
+<div class="wp-block-column" style="background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);border-radius:12px;padding:2rem;text-align:center">
+<h3 style="font-size:24px;color:#ffffff;margin-bottom:0.75rem">Vérité</h3>
+<p style="color:rgba(255,255,255,0.8);font-size:15px;line-height:1.6">Transparence totale dans l&#x2019;action publique. Rendre des comptes au peuple, toujours.</p>
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column" style="background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);border-radius:12px;padding:2rem;text-align:center">
+<h3 style="font-size:24px;color:#ffffff;margin-bottom:0.75rem">Loyauté</h3>
+<p style="color:rgba(255,255,255,0.8);font-size:15px;line-height:1.6">Fidélité aux valeurs républicaines et engagement indéfectible envers la nation guinéenne.</p>
+</div>
+<!-- /wp:column -->
+<!-- wp:column -->
+<div class="wp-block-column" style="background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);border-radius:12px;padding:2rem;text-align:center">
+<h3 style="font-size:24px;color:#ffffff;margin-bottom:0.75rem">Paix</h3>
+<p style="color:rgba(255,255,255,0.8);font-size:15px;line-height:1.6">Construire des ponts entre les communautés pour une Guinée unie et solidaire.</p>
+</div>
+<!-- /wp:column -->
+</div>
+<!-- /wp:columns -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"align":"full","layout":{"type":"constrained","contentSize":"1280px"},"style":{"spacing":{"padding":{"top":"5rem","bottom":"5rem"}},"color":{"background":"#075C3B"}}} -->
+<div class="wp-block-group alignfull has-background fofana-reveal" style="background-color:#075C3B;padding-top:5rem;padding-bottom:5rem;text-align:center">
+<h2 class="wp-block-heading" style="font-size:32px;color:#ffffff;margin-bottom:1rem">Rejoignez le mouvement</h2>
+<p style="color:rgba(255,255,255,0.7);font-size:17px;max-width:540px;margin:0 auto 2rem;line-height:1.6">Ensemble, construisons une Guinée méthodique et solidaire. Participez au changement avec le RGA.</p>
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"secondary-container","textColor":"on-surface","style":{"border":{"radius":"4px"},"spacing":{"padding":{"top":"0.875rem","bottom":"0.875rem","left":"2rem","right":"2rem"}}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-on-surface-color has-secondary-container-background-color has-text-color has-background" href="/contact/" style="padding-top:0.875rem;padding-right:2rem;padding-bottom:0.875rem;padding-left:2rem;border-radius:4px;font-weight:700;text-transform:uppercase;font-size:13px;letter-spacing:0.03em">Nous rejoindre &#x2192;</a></div>
+<!-- /wp:button -->
+<!-- wp:button {"style":{"border":{"radius":"4px"},"spacing":{"padding":{"top":"0.875rem","bottom":"0.875rem","left":"2rem","right":"2rem"}},"color":{"background":"#25D366","text":"#ffffff"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-text-color has-background" href="https://wa.me/224627249666" style="padding-top:0.875rem;padding-right:2rem;padding-bottom:0.875rem;padding-left:2rem;border-radius:4px;font-weight:700;text-transform:uppercase;font-size:13px;letter-spacing:0.03em;background-color:#25D366;color:#ffffff" target="_blank" rel="noopener noreferrer">WhatsApp</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+</div>
+<!-- /wp:group -->
